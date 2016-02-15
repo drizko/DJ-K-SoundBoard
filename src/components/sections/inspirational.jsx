@@ -1,12 +1,12 @@
 var React = require('react');
-var Inspirational = require('./sections/inspirational.jsx')
+var WeTheBest = require('../buttons/we-the-best.jsx');
 
 module.exports = React.createClass({
   render: function() {
     return (
       <div>
-        <h1>DJ Khaled SoundBoard</h1>
-        <Inspirational />
+        <h3>Inspiration</h3>
+        <WeTheBest />
       </div>
     )
   }
