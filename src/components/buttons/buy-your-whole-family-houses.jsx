@@ -4,15 +4,14 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div>
-        <button onClick={this.handleClick} >
-          We The Best
+        <button className="btn clip-button" onClick={this.handleClick} >
+          Buy Your Whole Family Houses
         </button>
       </div>
     )
   },
   handleClick: function(){
-    console.log("We the best");
-    var clip = new Audio('../../../assets/we-the-best.ogg');
+    var clip = new Audio('../../../assets/clips/buy-your-whole-family-houses.ogg');
 
     clip.play()
   }

@@ -1,3 +1,35 @@
-.black {
-  color: black
+body {
+  color: black;
+  background-color: #fff;
+  background-image: url('http://www.hemic.com/wp-content/themes/hemic/images/sky-1.png');
+}
+
+.clip-button {
+  margin: 5px;
+}
+
+.inspiration {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.motivation {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.clip-button {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  border-color: #888;
+  background-color: #fff;
+}
+
+.major-heading {
+  font-size: 60px;
 }

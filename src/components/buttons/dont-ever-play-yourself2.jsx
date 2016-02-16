@@ -5,13 +5,13 @@ module.exports = React.createClass({
     return (
       <div>
         <button className="btn clip-button" onClick={this.handleClick} >
-          Never Give Up
+          Don't Ever Play Yourself (2)
         </button>
       </div>
     )
   },
   handleClick: function(){
-    var clip = new Audio('../../../assets/clips/never-give-up.ogg');
+    var clip = new Audio('../../../assets/clips/dont_ever_play_yourself2.ogg');
 
     clip.play()
   }
