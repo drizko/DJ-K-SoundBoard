@@ -2,6 +2,7 @@ var React = require('react');
 var Inspirational = require('./sections/inspirational.jsx')
 var Motivation = require('./sections/motivation.jsx')
 var LifeLessons = require('./sections/life-lessons.jsx')
+var Request = require('./sections/request.jsx')
 
 module.exports = React.createClass({
   render: function() {
@@ -12,6 +13,7 @@ module.exports = React.createClass({
         <Inspirational />
         <Motivation />
         <LifeLessons />
+        <Request />
       </div>
     )
   }
