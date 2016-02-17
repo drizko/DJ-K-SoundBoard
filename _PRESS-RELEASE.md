@@ -1,4 +1,4 @@
-# Project Name #
+# DJ Khaled Soundboard #
 
 <!--
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -35,10 +35,10 @@ Once the project moves into development, the press release can be used as a touc
   > We the best.
 
 ## How to Get Started ##
-  > Go to this website and press any of the sound buttons!
+  > Go to here https://dj-khaled-soundboard.firebaseapp.com/ and press any of the sound buttons!
 
 ## Customer Quote ##
-  > This is great I'm going to use this everyday.
+  > I have used this everyday since I found it, its a great way to start the day and I'm looking to tell all my friends about it!.
 
 ## Closing and Call to Action ##
   > Go to the site!
