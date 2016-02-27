@@ -11,7 +11,7 @@ module.exports = React.createClass({
     )
   },
   handleClick: function(){
-    var clip = new Audio('../../../assets/clips/dont_ever_play_yourself2.ogg');
+    var clip = new Audio('../../../assets/clips/dont_ever_play_yourself2.mp3');
 
     clip.play()
   }

@@ -11,7 +11,7 @@ module.exports = React.createClass({
     )
   },
   handleClick: function(){
-    var clip = new Audio('../../../assets/clips/never-surrender.ogg');
+    var clip = new Audio('../../../assets/clips/never-surrender.mp3');
 
     clip.play()
   }

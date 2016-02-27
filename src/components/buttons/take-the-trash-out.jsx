@@ -11,7 +11,7 @@ module.exports = React.createClass({
     )
   },
   handleClick: function(){
-    var clip = new Audio('../../../assets/clips/take-the-trash-out.ogg');
+    var clip = new Audio('../../../assets/clips/take-the-trash-out.mp3');
 
     clip.play()
   }
