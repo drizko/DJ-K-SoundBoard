@@ -18,8 +18,8 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div>
-        <div>
-          <h2>Inspiration</h2>
+        <div className='titles'>
+          Inspiration
         </div>
         <div className="inspiration">
           <YouSmart />

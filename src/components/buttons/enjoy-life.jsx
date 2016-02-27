@@ -4,9 +4,7 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div>
-        <button className="btn clip-button" onClick={this.handleClick} >
-          Enjoy Life
-        </button>
+        <button className="btn clip-button" onClick={this.handleClick} >Enjoy Life</button>
       </div>
     )
   },

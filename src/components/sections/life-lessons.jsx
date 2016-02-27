@@ -11,8 +11,8 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div>
-        <div>
-          <h2>Life Lessons</h2>
+        <div className='titles'>
+          Life Lessons
         </div>
         <div className="motivation">
           <MajorKey />

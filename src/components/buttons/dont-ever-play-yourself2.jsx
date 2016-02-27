@@ -4,9 +4,7 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div>
-        <button className="btn clip-button" onClick={this.handleClick} >
-          Don't Ever Play Yourself (2)
-        </button>
+        <button className="btn clip-button" onClick={this.handleClick} >Don't Ever Play Yourself (2)</button>
       </div>
     )
   },
