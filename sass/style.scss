@@ -19,17 +19,20 @@ body {
 
 .inspiration, .motivation {
   display: flex;
+  display: -webkit-flex;
   flex: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
 }
 
 .clip-button {
     margin: 5px;
     display: flex;
+    display: -webkit-flex;
     flex: auto;
     flex-direction: row;
+    -webkit-flex-direction: row;
     border-color: #888;
     background-color: #fff;
     width: 90vw;
@@ -40,9 +43,7 @@ body {
 }
 
 @media screen and (min-width: 1600px){
-  .clip-button {
-      width: 40vw;
-  }
+  .clip-button {width: 40vw;}
 }
 
 .major-heading {
