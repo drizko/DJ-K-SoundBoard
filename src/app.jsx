@@ -9,4 +9,4 @@ var App = React.createClass({
 });
 
 var element = React.createElement(App, {});
-ReactDOM.render(element, document.querySelector('.container'));
+ReactDOM.render(element, document.querySelector('.app'));

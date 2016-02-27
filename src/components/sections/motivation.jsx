@@ -9,8 +9,8 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div>
-        <div>
-          <h2>Motivation</h2>
+        <div className='titles'>
+          Motivation
         </div>
         <div className="motivation">
           <DontEverPlayYourself1 />
