@@ -32,7 +32,7 @@ var notify = function(error) {
   notifier.notify({title: title, message: message});
 };
 
-var bundler = watchify(browserify({
+var bundler = browserify({
   entries: ['./src/app.jsx'],
   transform: [reactify],
   extensions: ['.jsx'],
@@ -40,7 +40,7 @@ var bundler = watchify(browserify({
   cache: {},
   packageCache: {},
   fullPaths: true
-}));
+});
 
 function bundle() {
   return bundler
@@ -81,9 +81,7 @@ gulp.task('sass', function () {
 
 gulp.task('default', ['build', 'serve', 'sass', 'watch']);
 
-gulp.task('production', ['build', 'sass'], function(){
-  process.exit(0);
-});
+gulp.task('production', ['build', 'sass']);
 
 gulp.task('watch', function () {
   gulp.watch('./sass/**/*.scss', ['sass']);
