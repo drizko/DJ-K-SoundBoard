@@ -12,8 +12,14 @@ body {
   margin: 0 5%;
 }
 
+.major-heading {
+  width: 100%;
+  text-align: center;
+  font-size: 10vh;
+}
+
 .titles {
-  font-size: 4vh;
+  font-size: 9vh;
   text-align: center;
 }
 
@@ -36,20 +42,19 @@ body {
     border-color: #888;
     background-color: #fff;
     width: 90vw;
-    font-size: 3vh;
+    font-size: 7vh;
     display: inline-block;
     word-wrap: break-word;
     white-space: pre-line;
 }
 
 @media screen and (min-width: 1600px){
-  .clip-button {width: 40vw;}
+  .clip-button {
+    width: 40vw;
+    font-size: 5vh;
+  }
+
 }
 
-.major-heading {
-  width: 100%;
-  text-align: center;
-  font-size: 5vh;
-}
 
 
